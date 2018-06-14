@@ -20,7 +20,7 @@ extension UITextField {
   @IBInspectable var leftImage: UIImage? {
     get { return nil }
     set {
-      let iv = UIImageView(frame: CGRect(x: 0, y: 0, width: height, height: height))
+      let iv = UIImageView(frame: CGRect(x: 0, y: 0, width: viewHeight, height: viewHeight))
       iv.image = newValue
       iv.contentMode = .center
       leftView = iv

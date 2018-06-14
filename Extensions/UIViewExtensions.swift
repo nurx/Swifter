@@ -50,7 +50,7 @@ extension UIView {
   }
 
   @nonobjc
-  var height: CGFloat {
+  var viewHeight: CGFloat {
     get { return frame.height }
     set { frame.size.height = newValue }
   }
